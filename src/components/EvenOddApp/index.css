@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.even-odd-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+.even-odd-card {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-family: 'roboto';
+}
+.heading {
+  color: #0f172a;
+  font-size: 32px;
+}
+.text {
+  color: #334155;
+  font-size: 20px;
+}
+.notice-text {
+  font-size: 12px;
+  color: #334155;
+}
+.increment-btn {
+  font-size: 12px;
+  color: #1e293b;
+  background-color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
